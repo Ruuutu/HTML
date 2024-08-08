@@ -1,0 +1,160 @@
+*alt+shift+down cursor
+to copy paste the same content
+
+********************************************
+formating tag
+bold
+<b></b>=use to bold the text but it does not indicate to browser that it is imp content
+<strong></strong>=also use to bold the text
+<strong> </strong> is use to achieve SEO(search engine optimization)
+
+
+italic
+
+<i> </i>
+<em> </em> - to achive soe
+
+underline
+<u> </u>
+<ins> </ins> - to achieve soe
+
+strike through
+<strike> </strike> 
+<del> </del>
+
+<sub> </sub> - subscript
+<sup> </sup> - raise
+
+<code> </code> - to add code
+
+<address> </address>-to add address
+<mark> </mark>-to highlight the text.
+
+*********************************************************
+
+**Block level element--
+ ---it occupy the 100% width of the parent element
+ ---block level element will allow not any other element to come in same line
+ ---example is <p></p>,<h></h>,<div></div>
+ ---we can give width & height to the block level element
+
+ **Inline level element
+ ----Inline element will occupy only content width
+ ----Inline level element will allow any other inline element to come in same line
+ ----example is <b></b>,span,almost all formating tag except blockquote,address
+ -----we can  not give width & height to the inline level element
+-----To achieve inline behaviour use the <span></span>
+
+*************************************************************
+./ -current folder
+../ -parent folder
+../../ -grand parent folder
+absolute path= start to  end
+relative path- from the current folder
+(highly recommended to follow relative path)
+
+attribute- it is used to provide additional information about the tag
+<img key="value">
+attributes are wriiten in the form of key value pair..
+
+*****************************************************
+tag consist of opening tag and closing tag
+
+
+**tag without closing tag known as-single tag,unpaired tag,self closing tag,non container tag
+eg=hr,br,img
+**tag with closing tag known as-paired and container
+eg=head,body,htlm
+**sementic tag- are those tag by its name we get idea that for which purpose it is used.
+eg=img,video,form,input,footer,header,main,article,details,adderss,figure,nav,title,table,body,head
+
+
+****************************************
+LIST TAG;
+<li> </li> - to create LIST
+<ol> </ol>  - to create ordered LIST
+<ul> </ul>  - to create unorderd LIST
+attributes of the list- type,start
+
+**unorderd list
+attributes of unorder list - type
+default type with unorderd list == disc
+we can also use circle,square,null(if we dont want any kind of bullet)
+ex.<ul type="square">
+
+**orderd list
+attributes of order list - type , start,reverse
+1.type attribute
+default type is number(1)
+we can also use lower case alpha(a),upper case alpa(A),roman letter/ lower use (i)
+                                                              upper case use(I)
+ex. <OL type ="A">
+
+2.start attribute
+<OL type ="a" start="1"> //start with A
+<OL type ="a" start="26">//start with z
+ <OL type ="a" start="27">//start with aa
+ <OL type ="a" start="52">// start with az
+
+3.reverse
+list will be in descending order
+<OL type ="a" start="1" reversed>
+
+***Description list
+does not have any attribute
+<dl> 
+   <dt>Description title</dt>
+   <dd>Description data</dd>
+</dl>
+
+
+**************************************************
+1. audio tag
+   attributes: controls(will start the audio i.e to control the audio [pause ,control the speed])
+               loop(audio will play in loop,repeated)
+               autoplay(it will play automatically if we open the webpage,It will play one time)
+               muted(if we open the webpage audio will be mute )
+               src
+               
+
+1. video tag
+   all the tags of audio we use with video.
+
+   To play video at background without controls we have to use loop , autoplay  and muted attributes.
+
+
+****************************************************
+
+*TABLE*:
+
+@ Table is the combination of the rows and columns
+@ Table generation takes place row by row.
+<table></table> == to create table
+<tr> </tr> == To create row
+<td> </td>==  table data (act as a column)
+alternative of td is th
+<th> </th>== data becomes bold
+<thead> </thead> == used to wrap heading part of the table
+<tbody> </tbody> == used to wrap body part of the table
+<tfoot> </tfoot> == used to wrap footer part of the table
+
+
+
+attributes of the table :
+                        1. border : used to make border to the table.
+                        2. cellspacing: space between two cells
+                        3. cellpading : space between content and border // default cellpading is 1px
+                            above 3 attributes used in table tag
+                        4.colspan: Merge the column as per given number.
+                                   we use colspan in <td> </td> tag
+                        5.rowspan:merge the rows as per given number
+
+*************************************************************
+anchor tag : to create a hyperlink
+
+which is used To navigate from one page to another
+
+attributes:
+           1.href: provide link or path where we want to navigate
+
+1.
